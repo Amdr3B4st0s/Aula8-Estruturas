@@ -26,10 +26,10 @@ function Banco(){
     let Saldo = prompt("Digite o saldo da conta.");
     let Valor = prompt("Digite o valor da compra.");
     if(Number(Saldo) >= Number(Valor)){
-        alert(`A compra foi realizada com sucesso. O seu novo saldo Ã© de R$${Number(Saldo)-Number(Valor)}.`);
+        alert(`A compra foi realizada com sucesso. O seu novo saldo é de R$${Number(Saldo)-Number(Valor)}.`);
     }
     else{
-        alert("A compra não foi realizada. Saldo insuficiente.");
+        alert(`A compra não foi realizada. Saldo insuficiente. A compra te deixaria com um saldo negativo de R$${Number(Saldo)-Number(Valor)}`);
     }
 }
 function Media(){
