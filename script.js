@@ -25,8 +25,8 @@ function Calculadora(){
 function Banco(){
     let Saldo = prompt("Digite o saldo da conta.");
     let Valor = prompt("Digite o valor da compra.");
-    if(Saldo >= Valor){
-        alert(`A compra foi realizada com sucesso. O seu novo saldo é de R$${Saldo-Valor}.`);
+    if(Number(Saldo) >= Number(Valor)){
+        alert(`A compra foi realizada com sucesso. O seu novo saldo Ã© de R$${Number(Saldo)-Number(Valor)}.`);
     }
     else{
         alert("A compra não foi realizada. Saldo insuficiente.");
