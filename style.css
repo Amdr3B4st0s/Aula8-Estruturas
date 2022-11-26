@@ -1,0 +1,18 @@
+body{
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/1849553-fundo-ouro-moderno-gratis-vetor.jpg);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+}
+
+button{
+    float: left;
+    margin-left: 14%;
+    color: darkgrey;
+    background-color: black;
+}
+h1{
+    margin-top: 20%;
+    font-size: 350%;
+    text-decoration: overline underline double darkgrey;
+}
